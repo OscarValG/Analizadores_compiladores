@@ -1,0 +1,40 @@
+identificador	0
+real	2
+real	2
+entero	1
+tipo	4
+opOr	8
+,	13
+)	15
+)	15
+)	15
+)	15
+(	14 
+}	17
+else	22
+	R2 <Definiciones> ::= \e 
+=	18
+	R26 <Otro> ::= \e 
+	R10 <Parametros> ::= \e 
+}	17
+while	20
+	R21 <Sentencia> ::= identificador = <Expresion> ; 
+		R26 <Otro> ::= \e 
+		R11 <Parametros> ::= tipo identificador <ListaParam> 
+			R26 <Otro> ::= \e 
+			R10 <Parametros> ::= \e 
+		}	17
+		
+			R14 <BloqFunc> ::= { <DefLocales> } 
+				R6 <DefVar> ::= tipo identificador <ListaVar> ; 
+					R7 <ListaVar> ::= \e 
+					R26 <Otro> ::= \e 
+					R10 <Parametros> ::= \e 
+				}	17
+				while	20
+					R26 <Otro> ::= \e 
+					R11 <Parametros> ::= tipo identificador <ListaParam> 
+					opAnd	9
+					cadena	3
+					opSuma	5
+					opMul	6
